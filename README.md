@@ -27,6 +27,8 @@ itself runs at the address above.
 | `suggest_prompts` | Suggests ready questions that help participants write, for an occasion, optionally with the recipient's name filled in | no |
 | `create_board` | Creates the card and returns the invite link for participants | yes |
 | `board_status` | Shows how many people have signed, when collection closes and when the card opens | no |
+| `gift_budget` | How much each person gives toward a group gift, in shekels, rounded down to 10; the organiser adds the rest. Or the budget from a per-person amount | no |
+| `occasion_date` | Next two dates of a Jewish holiday, with Israeli postponements, computed from the calendar rule; says when greetings are not customary | no |
 
 `create_board` requires the organiser's email address: the links for managing
 the card are sent there. The assistant is told to ask for it and never to
