@@ -3,8 +3,9 @@
   "name": "ai.yahad/yahad",
   "title": "Yahad",
   "description": "Hebrew group greeting cards: create, invite signers, track; split a gift, holiday dates.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "websiteUrl": "https://www.yahad.ai/leozrim/",
+  "repository": { "url": "https://github.com/SLAtech-IL/yahad-mcp", "source": "github" },
   "icons": [
     { "src": "https://www.yahad.ai/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
   ],
